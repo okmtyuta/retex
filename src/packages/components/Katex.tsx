@@ -2,7 +2,7 @@ import katex from "katex";
 import { useEffect, useRef } from "react";
 import { color } from "./config";
 import "katex/dist/katex.min.css";
-import "./Katex.css";
+import "../css/Katex.css";
 
 interface KatexProps {
   equation: string;
